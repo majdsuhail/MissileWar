@@ -1,0 +1,33 @@
+body {
+  /* ...existing code... */
+}
+canvas {
+  background: #222;
+  display: block;
+  margin: 20px auto;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.cooldownBar {
+  width: 200px;
+  height: 10px;
+  background: #555;
+  margin: 5px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none;
+}
+.cooldownProgress {
+  height: 100%;
+  width: 100%;
+  background: orange;
+  transition: width 0.1s linear;
+}

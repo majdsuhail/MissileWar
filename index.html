@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Square Shoot Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game" width="800" height="200"></canvas>
+  <button id="smallBtn" onclick="handleSmallShoot()">Shoot Small Missile</button>
+  <div id="smallCooldownBar" class="cooldownBar"><div id="smallCooldownProgress" class="cooldownProgress"></div></div>
+  <button id="bigBtn" onclick="handleBigShoot()">Shoot Big Missile</button>
+  <div id="cooldownBar" class="cooldownBar"><div id="cooldownProgress" class="cooldownProgress"></div></div>
+  <button id="restartBtn" style="display:none; margin: 20px auto;" onclick="restartGame()">Restart</button>
+  <script src="game.js"></script>
+</body>
+</html>
