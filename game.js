@@ -1,5 +1,3 @@
-// Game logic extracted from index.html
-
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 
